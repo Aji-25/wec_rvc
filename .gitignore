@@ -1,0 +1,122 @@
+# ============================================================
+# Rust
+# ============================================================
+/target/
+**/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo lock — keep for binaries (rvc / rvcd), remove if library-only
+# Cargo.lock
+
+# ============================================================
+# AI / LLM context files
+# ============================================================
+CLAUDE.md
+claude.md
+.claude/
+GEMINI.md
+gemini.md
+.gemini/
+CURSOR.md
+cursor.md
+.cursor/
+COPILOT.md
+copilot.md
+*.aider*
+.aider*
+
+# ============================================================
+# Generated documentation & guides
+# ============================================================
+RvC_Implementation_Guide.html
+*_Implementation_Guide.html
+*_Guide.html
+docs/generated/
+*.generated.html
+
+# ============================================================
+# macOS
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# ============================================================
+# Environment & secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+.secrets
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# JetBrains / RustRover / CLion
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+Session.vim
+.netrwhist
+
+# Emacs
+*#
+.#*
+\#*#
+
+# ============================================================
+# OS / General
+# ============================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# ============================================================
+# Logs & temporary files
+# ============================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+/tmp/
+/temp/
+
+# ============================================================
+# Test / coverage artefacts
+# ============================================================
+/coverage/
+lcov.info
+*.profraw
+*.profdata
+tarpaulin-report.html
+cobertura.xml

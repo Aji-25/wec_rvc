@@ -1,0 +1,19 @@
+[package]
+name    = "rvc-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow     = { workspace = true }
+serde      = { workspace = true }
+serde_json = { workspace = true }
+sha2       = { workspace = true }
+hex        = { workspace = true }
+flate2     = { workspace = true }
+chrono     = { workspace = true }
+libp2p     = { workspace = true }
+futures    = { workspace = true }
+async-trait = "0.1"
+
+[dev-dependencies]
+tempfile = "3"
